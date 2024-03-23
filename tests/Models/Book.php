@@ -1,9 +1,9 @@
 <?php
 
-namespace Rennokki\QueryCache\Test\Models;
+namespace Seblhaire\QueryCache\Test\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Rennokki\QueryCache\Traits\QueryCacheable;
+use Seblhaire\QueryCache\Traits\QueryCacheable;
 
 class Book extends Model
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Rennokki\QueryCache\Test;
+namespace Seblhaire\QueryCache\Test;
 
-use Rennokki\QueryCache\Test\Models\Role;
-use Rennokki\QueryCache\Test\Models\User;
+use Seblhaire\QueryCache\Test\Models\Role;
+use Seblhaire\QueryCache\Test\Models\User;
 
 class FlushCacheOnUpdatePivotTest extends TestCase
 {

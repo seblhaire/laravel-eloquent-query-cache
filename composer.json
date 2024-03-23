@@ -17,20 +17,26 @@
             "email": "alex@renoki.org",
             "homepage": "https://github.com/rennokki",
             "role": "Developer"
+        },
+        {
+            "name": "Seb L'haire",
+            "email": "sebastien@lhaire.org",
+            "homepage": "https://github.com/rennokki",
+            "role": "Developer"
         }
     ],
     "require": {
-        "illuminate/database": "^9.35|^10.5|^11",
-        "illuminate/support": "^9.35|^10.5|^11"
+        "illuminate/database": "^11.0",
+        "illuminate/support": "^11.0"
     },
     "autoload": {
         "psr-4": {
-            "Rennokki\\QueryCache\\": "src/"
+            "Seblhaire\\QueryCache\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rennokki\\QueryCache\\Test\\": "tests"
+            "Seblhaire\\QueryCache\\Test\\": "tests"
         }
     },
     "scripts": {

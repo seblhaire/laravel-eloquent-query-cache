@@ -1,8 +1,8 @@
 <?php
 
-namespace Rennokki\QueryCache\Test;
+namespace Seblhaire\QueryCache\Test;
 
-use Rennokki\QueryCache\Test\Models\Page;
+use Seblhaire\QueryCache\Test\Models\Page;
 
 class FlushCacheOnUpdateTest extends TestCase
 {

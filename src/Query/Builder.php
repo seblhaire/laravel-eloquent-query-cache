@@ -1,11 +1,11 @@
 <?php
 
-namespace Rennokki\QueryCache\Query;
+namespace Seblhaire\QueryCache\Query;
 
 use Illuminate\Database\Query\Builder as BaseBuilder;
 use Illuminate\Support\Arr;
-use Rennokki\QueryCache\Contracts\QueryCacheModuleInterface;
-use Rennokki\QueryCache\Traits\QueryCacheModule;
+use Seblhaire\QueryCache\Contracts\QueryCacheModuleInterface;
+use Seblhaire\QueryCache\Traits\QueryCacheModule;
 
 class Builder extends BaseBuilder implements QueryCacheModuleInterface
 {

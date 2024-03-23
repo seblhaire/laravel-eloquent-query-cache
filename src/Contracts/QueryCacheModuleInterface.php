@@ -1,6 +1,6 @@
 <?php
 
-namespace Rennokki\QueryCache\Contracts;
+namespace Seblhaire\QueryCache\Contracts;
 
 interface QueryCacheModuleInterface
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Rennokki\QueryCache\Test;
+namespace Seblhaire\QueryCache\Test;
 
 use Illuminate\Support\Facades\Cache;
-use Rennokki\QueryCache\Test\Models\Post;
+use Seblhaire\QueryCache\Test\Models\Post;
 
 class PaginateTest extends TestCase
 {
